@@ -31,7 +31,7 @@ To add a Flexible File Task to a package, drag it from SSIS Toolbox to the desig
 The **Operation** property specifies the file operation to perform.
 Currently supported operations are:
 - **Copy** Operation
-- **Delete** Operation
+- **[Delete](https://docs.microsoft.com/en-us/sql/integration-services/azure-feature-pack-for-integration-services-ssis?view=sql-server-ver15#version-1150)** Operation 
 
 For **Copy** operation, following properties are available.
 
@@ -45,7 +45,7 @@ For **Copy** operation, following properties are available.
 - **DestinationFolderPath:** Specifies the destination folder path.
 - **DestinationFileName:** Specifies the destination file name.
 
-For **Delete** operation, following properties are available.
+For **Delete** operation (*Release Version: 1.15.0*), following properties are available.
 - **ConnectionType:** Specifies the connection manager type.
 - **Connection:** Specifies the connection manager.
 - **FolderPath:** Specifies the folder path.
