@@ -429,6 +429,10 @@ To configure the load balancer, you need to create a backend pool, a probe, and 
    | **Interval**  | The amount of time between probe attempts in seconds |5 |
    | **Unhealthy threshold** | The number of consecutive probe failures that must occur for a virtual machine to be considered unhealthy  | 2 |
 
+>[!NOTE]
+> The **Probe port** should be *any unused port* available. Please **do not use** the same port configured for SQL Server (in this tutorial, the port chosen to be configured for SQL Server - i.e the default 1433 - should not be considered for the probe port). 
+
+
 1. Select **OK** to set the health probe.
 
 ### Set the load balancing rules
